@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: David Quines Website Test V1
-email: davidqshadow@gmail.com
-description: >- # this is a n description test
+title: David Quines Website Test V2
+email: davidsquines@gmail.com
+description: >- # This is version 2 of the new test website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsqsfl
 github_username:  davidsquines
+instagram_username: dsqsfl
 
 
 # Build settings
