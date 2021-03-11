@@ -17,12 +17,12 @@ public class htmlUnitTest {
           
 		// This code will test and print the page title
 		String pageTitle = driver.getTitle();
-		try{
-			Assert.assertNotEquals(pageTitle, "");
-		}catch (AssertionError e){
-			System.out.println("Page Title cannot be blank");
-			throw e;
-		}
+		//try{
+		//	Assert.assertNotEquals(pageTitle, "");
+		//}catch (AssertionError e){
+		//	System.out.println("Page Title cannot be blank");
+		//	throw e;
+		//}
 		Assert.assertFalse(pageTitle.matches("^\\s*$")); // uses regexp
 		System.out.println("Page title is: " + pageTitle);
 
