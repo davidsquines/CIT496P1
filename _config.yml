@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 #title: David Quines Website Test V2
-title: This is the awesome webite of David Quines, a sleep-deprived computer science student. 
+title: This is the awesome webite of David Quines, a goal-oriented, success driven computer science student. 
 email: davidsquines@gmail.com
-description: >- # This is version 2 of the new test website
+description: >- # This is version 3 of my website. These changes were made to clean the operations of the webpage. Now it looks Better
 baseurl: "/bad_route" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsqsfl
