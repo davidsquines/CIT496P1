@@ -17,12 +17,12 @@ public class htmlUnitTest {
           
 		// This code will test and print the page title
 		String pageTitle = driver.getTitle();
-		//try{
-		//	Assert.assertNotEquals(pageTitle, "");
-		//}catch (AssertionError e){
-		//	System.out.println("Page Title cannot be blank");
-		//	throw e;
-		//}
+		try{
+			Assert.assertNotEquals(pageTitle, "");
+		}catch (AssertionError e){
+			System.out.println("Page must have a title. Please Fix");
+			throw e;
+		}
 		Assert.assertFalse(pageTitle.matches("^\\s*$")); // uses regexp
 		System.out.println("Page title is: " + pageTitle);
 
@@ -31,7 +31,7 @@ public class htmlUnitTest {
 		try{
 			Assert.assertFalse(pageSource.contains("404.html"));
 		}catch(AssertionError e){
-			System.out.println("404 Error found");
+			System.out.println("404 Error found. Please fix fix this error");
 			Assert.assertFalse(pageSource.contains("404.html"));
 			throw e;
 		}	
@@ -42,7 +42,7 @@ public class htmlUnitTest {
 		for(WebElement element: usernames){
 
 			String name = element.getText();
-			Assert.assertEquals("dsqsfl",name);
+			Assert.assertEquals("davidsquines",name);
 			System.out.print(name + " ");
 		}
 		System.out.println();
